@@ -14,6 +14,9 @@
 		047D386826F8D60900D8D528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047D386726F8D60900D8D528 /* Assets.xcassets */; };
 		047D386B26F8D60900D8D528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D386926F8D60900D8D528 /* LaunchScreen.storyboard */; };
 		047D387326F8D67B00D8D528 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D387226F8D67B00D8D528 /* ProductTableViewController.swift */; };
+		047D387726F8D6B700D8D528 /* AddProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D387426F8D6B600D8D528 /* AddProductTableViewController.swift */; };
+		047D387826F8D6B700D8D528 /* GetProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D387526F8D6B700D8D528 /* GetProductsTableViewController.swift */; };
+		047D387926F8D6B700D8D528 /* AddProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D387626F8D6B700D8D528 /* AddProviderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		047D386A26F8D60900D8D528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047D386C26F8D60900D8D528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047D387226F8D67B00D8D528 /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		047D387426F8D6B600D8D528 /* AddProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductTableViewController.swift; sourceTree = "<group>"; };
+		047D387526F8D6B700D8D528 /* GetProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetProductsTableViewController.swift; sourceTree = "<group>"; };
+		047D387626F8D6B700D8D528 /* AddProviderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProviderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 			children = (
 				047D385B26F8D60800D8D528 /* AppDelegate.swift */,
 				047D385D26F8D60800D8D528 /* SceneDelegate.swift */,
+				047D387426F8D6B600D8D528 /* AddProductTableViewController.swift */,
+				047D387626F8D6B700D8D528 /* AddProviderViewController.swift */,
+				047D387526F8D6B700D8D528 /* GetProductsTableViewController.swift */,
 				047D387226F8D67B00D8D528 /* ProductTableViewController.swift */,
 				047D386126F8D60800D8D528 /* Main.storyboard */,
 				047D386726F8D60900D8D528 /* Assets.xcassets */,
@@ -142,8 +151,11 @@
 			files = (
 				047D385C26F8D60800D8D528 /* AppDelegate.swift in Sources */,
 				047D385E26F8D60800D8D528 /* SceneDelegate.swift in Sources */,
+				047D387826F8D6B700D8D528 /* GetProductsTableViewController.swift in Sources */,
+				047D387726F8D6B700D8D528 /* AddProductTableViewController.swift in Sources */,
 				047D387326F8D67B00D8D528 /* ProductTableViewController.swift in Sources */,
 				047D386626F8D60800D8D528 /* Lab_A1_A2_iOS_Renu_C0814038.xcdatamodeld in Sources */,
+				047D387926F8D6B700D8D528 /* AddProviderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
