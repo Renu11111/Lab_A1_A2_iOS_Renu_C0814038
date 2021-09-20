@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		047D385C26F8D60800D8D528 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D385B26F8D60800D8D528 /* AppDelegate.swift */; };
 		047D385E26F8D60800D8D528 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D385D26F8D60800D8D528 /* SceneDelegate.swift */; };
-		047D386026F8D60800D8D528 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D385F26F8D60800D8D528 /* ViewController.swift */; };
 		047D386326F8D60800D8D528 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D386126F8D60800D8D528 /* Main.storyboard */; };
 		047D386626F8D60800D8D528 /* Lab_A1_A2_iOS_Renu_C0814038.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 047D386426F8D60800D8D528 /* Lab_A1_A2_iOS_Renu_C0814038.xcdatamodeld */; };
 		047D386826F8D60900D8D528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047D386726F8D60900D8D528 /* Assets.xcassets */; };
 		047D386B26F8D60900D8D528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047D386926F8D60900D8D528 /* LaunchScreen.storyboard */; };
+		047D387326F8D67B00D8D528 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D387226F8D67B00D8D528 /* ProductTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		047D385826F8D60800D8D528 /* Lab_A1_A2_iOS_Renu_C0814038.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab_A1_A2_iOS_Renu_C0814038.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047D385B26F8D60800D8D528 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047D385D26F8D60800D8D528 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		047D385F26F8D60800D8D528 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		047D386226F8D60800D8D528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047D386526F8D60800D8D528 /* Lab_A1_A2_iOS_Renu_C0814038.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab_A1_A2_iOS_Renu_C0814038.xcdatamodel; sourceTree = "<group>"; };
 		047D386726F8D60900D8D528 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047D386A26F8D60900D8D528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047D386C26F8D60900D8D528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047D387226F8D67B00D8D528 /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				047D385B26F8D60800D8D528 /* AppDelegate.swift */,
 				047D385D26F8D60800D8D528 /* SceneDelegate.swift */,
-				047D385F26F8D60800D8D528 /* ViewController.swift */,
+				047D387226F8D67B00D8D528 /* ProductTableViewController.swift */,
 				047D386126F8D60800D8D528 /* Main.storyboard */,
 				047D386726F8D60900D8D528 /* Assets.xcassets */,
 				047D386926F8D60900D8D528 /* LaunchScreen.storyboard */,
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047D386026F8D60800D8D528 /* ViewController.swift in Sources */,
 				047D385C26F8D60800D8D528 /* AppDelegate.swift in Sources */,
 				047D385E26F8D60800D8D528 /* SceneDelegate.swift in Sources */,
+				047D387326F8D67B00D8D528 /* ProductTableViewController.swift in Sources */,
 				047D386626F8D60800D8D528 /* Lab_A1_A2_iOS_Renu_C0814038.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
